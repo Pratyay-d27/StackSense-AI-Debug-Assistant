@@ -1,65 +1,80 @@
-# stacksense README
+# ⚡ StackSense AI  
+### 🧠 Intelligent Debugging Assistant for VS Code
 
-This is the README for your extension "stacksense". After writing up a brief description, we recommend including the following sections.
-
-## Features
-
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
-
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
-
-## Requirements
-
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
-
-## Extension Settings
-
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
-
-For example:
-
-This extension contributes the following settings:
-
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
+<p align="center">
+  <img src="https://img.shields.io/badge/VS%20Code-Extension-blue?style=for-the-badge&logo=visualstudiocode"/>
+  <img src="https://img.shields.io/badge/AI-Groq%20LLaMA-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge"/>
+</p>
 
 ---
 
-## Working with Markdown
+## 🚀 Overview
 
-You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
+**StackSense AI** is a powerful VS Code extension that brings intelligent debugging directly into your workflow.  
+It understands your code automatically and provides **instant explanations, fixes, and insights** — without requiring you to paste full code.
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets
+---
 
-## For more information
+## 🎬 Demo (Add Your GIF Here)
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+<p align="center">
+  <img src="demo.gif" width="800"/>
+</p>
 
-**Enjoy!**
+> 📌 Record your screen using OBS or ScreenToGif and name it `demo.gif`
+
+---
+
+## ✨ Features
+
+- 🧠 **AI Code Analysis**  
+  Analyze your entire file instantly with one click
+
+- ⚡ **Error Debugging (Context-Aware)**  
+  Paste only the error → AI uses your full code automatically
+
+- 💬 **Real-Time Chat Assistant**  
+  Ask follow-up questions like ChatGPT
+
+- 📊 **Complexity Analysis**  
+  Get:
+  - Time Complexity  
+  - Space Complexity  
+  - Optimization Suggestions  
+
+- 🧾 **Persistent Chat Memory**  
+  Chat history remains even after reopening VS Code
+
+- 🧹 **Reset Chat Option**  
+  Start fresh anytime
+
+---
+
+## 🛠 Tech Stack
+
+- **VS Code Extension API**
+- **Node.js**
+- **Groq API (LLaMA 3.1)**
+- **Webview UI (Custom HTML/CSS/JS)**
+
+---
+
+## 🧠 How It Works
+
+1. Open any file in VS Code  
+2. Click **⚡ StackSense** in the status bar  
+3. Use:
+   - 🧠 Analyze → Code review  
+   - ⚡ Complexity → Performance insights  
+   - 💬 Chat → Ask questions  
+4. AI automatically reads your code context  
+
+---
+
+## 📦 Installation (Local)
+
+```bash
+git clone https://github.com/YOUR_USERNAME/StackSense-AI-Debug-Assistant.git
+cd StackSense-AI-Debug-Assistant
+npm install
