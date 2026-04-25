@@ -20,13 +20,16 @@ It understands your code automatically and provides **instant explanations, fixe
 
 ---
 
-## 🎬 Demo (Add Your GIF Here)
-
+## 🎬 Demo Of the AI Working
+> 📌 `Java Code` containing error with StackSense Button At Bottom Right Corner
 <p align="center">
-  <img src="demo.gif" width="800"/>
+  <img src="Media/Java_Code.png" width="800"/>
+</p>
+> 📌 AI Gives Correct Explanation Of The Code
+<p align="center">
+  <img src="Media/AI.png" width="800"/>
 </p>
 
-> 📌 Record your screen using OBS or ScreenToGif and name it `demo.gif`
 
 ---
 
