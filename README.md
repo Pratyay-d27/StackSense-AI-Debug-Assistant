@@ -25,7 +25,7 @@ It understands your code automatically and provides **instant explanations, fixe
 <p align="center">
   <img src="Media/Java_Code.png" width="800"/>
 </p>
-> 📌 AI Gives Correct Explanation Of The Code
+> 📌 StackSense AI Gives Correct Explanation Of The Code
 <p align="center">
   <img src="Media/AI.png" width="800"/>
 </p>
